@@ -6,11 +6,13 @@ function Hero() {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title} id="title-name">Hey, I'm Yuval</h1>
+        <h1 className={styles.title} id="title-name">
+          Hey, I'm Yuval.
+        </h1>
         <p className={styles.description}>
           {" "}
-          Active | Communicative | Independent learner <br /> I am a front-end
-          developer. Reach out if you'd like to see more!{" "}
+          Active | Communicative | Independent learner <br /> Reach out if you'd
+          like to see more!{" "}
         </p>
         <a href="mailto:dahan236@gmail.com" className={styles.contactBtn}>
           Contact me

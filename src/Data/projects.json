@@ -7,8 +7,14 @@
   },
   {
     "title": "KeeperApp",
-    "description": "Keeper app offers a user-friendly and intuitive platform for effortlessly jotting down notes and managing to-do lists with ease",
+    "description": "Keeper app offers a user-friendly and intuitive platform for effortlessly jotting down notes and managing to-do lists with ease.",
     "skills": ["React"],
     "source": "https://github.com/YuvalDahan7/KeeperApp"
+  },
+  {
+    "title": "SimonGame",
+    "description": "Test your memory with colors and sounds, repeating the sequence for high scores!",
+    "skills": ["JavaScript"],
+    "source": "https://github.com/YuvalDahan7/Simon-Game-"
   }
 ]

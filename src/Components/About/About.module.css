@@ -40,6 +40,10 @@
   gap: 50px;
 }
 
+.iconImg {
+  margin-right: 12px;
+}
+
 .aboutItem {
   display: flex;
   flex-direction: row;
