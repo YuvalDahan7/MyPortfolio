@@ -112,11 +112,13 @@
     align-items: center;
   }
 
-  #title {
-    font-size: 55px;
+ 
+  .heroImg {
+    width: 50%;
   }
 
   .description{
-    font-size: 25px;
+    font-size: 23px;
+    
   }
 }
