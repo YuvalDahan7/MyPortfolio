@@ -1,26 +1,26 @@
 [
     {
       "title": "HTML",
-      "imageSrc": "skills/html.png"
+      "icon": "html"
     },
     {
       "title": "CSS",
-      "imageSrc": "skills/css.png"
+      "icon": "css"
     },
     {
       "title": "React",
-      "imageSrc": "skills/react.png"
+      "icon": "react"
     },
     {
       "title": "Node",
-      "imageSrc": "skills/node.png"
+      "icon": "node"
     },
     {
       "title": "JavaScript",
-      "imageSrc": "skills/JavaScript.png"
+      "icon": "javaScript"
     },
     {
       "title": "MongoDB",
-      "imageSrc": "skills/mongodb.png"
+      "icon": "mongodb"
     }
   ]

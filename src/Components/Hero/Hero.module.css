@@ -19,12 +19,9 @@
   z-index: 1;
 }
 
-#title-name {
+.title {
   font-size: 72px;
   font-weight: 900;
-}
-
-.title {
   
   margin-bottom: 33px;
   font-family: var(--font-roboto);

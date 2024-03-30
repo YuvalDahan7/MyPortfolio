@@ -4,7 +4,7 @@ import emailIcon from "../../Assets/contact/emailIcon.png";
 import linkedinIcon from "../../Assets/contact/linkedinIcon.png";
 import githubIcon from "../../Assets/contact/githubIcon.png";
 
-function Contact(){
+function Contact() {
   return (
     <footer className={styles.container} id="contact">
       <div className={styles.text}>
@@ -14,22 +14,21 @@ function Contact(){
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={emailIcon} alt="Email icon" />
-          <a href="mailto:Dahan236@gmail.com">Dahan236@gmail.com</a>
+          <a href="mailto:Dahan236@gmail.com">Send an Email</a>
         </li>
         <li className={styles.link}>
-          <img
-            src={linkedinIcon}
-            alt="LinkedIn icon"
-          />
-          <a href="https://www.linkedin.com/in/yuval-dahan-a7b9c99/">linkedin.com</a>
+          <img src={linkedinIcon} alt="LinkedIn icon" />
+          <a href="https://www.linkedin.com/in/yuval-dahan-a7b9c99/">
+            My linkedin profile
+          </a>
         </li>
         <li className={styles.link}>
           <img src={githubIcon} alt="Github icon" />
-          <a href="https://github.com/YuvalDahan7">github.com</a>
+          <a href="https://github.com/YuvalDahan7">My github account</a>
         </li>
       </ul>
     </footer>
   );
-};
+}
 
 export default Contact;

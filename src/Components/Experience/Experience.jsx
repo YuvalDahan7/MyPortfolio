@@ -1,9 +1,23 @@
 import React from "react";
 import skills from "../../Data/skills.json";
 import styles from "./Experience.module.css";
-import { getImageUrl } from "../../utils";
+import reactIcon from "../../Assets/skills/react.png";
+import nodeIcon from "../../Assets/skills/node.png";
+import mongoDbIcon from "../../Assets/skills/mongodb.png";
+import javaScriptIcon from "../../Assets/skills/JavaScript.png";
+import htmlIcon from "../../Assets/skills/html.png";
+import cssIcon from "../../Assets/skills/css.png";
 
 function Experience() {
+  const icons = {
+    react: reactIcon,
+    node: nodeIcon,
+    mongodb: mongoDbIcon,
+    javaScript: javaScriptIcon,
+    html: htmlIcon,
+    css: cssIcon
+  };
+
   return (
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Skills</h2>
@@ -13,7 +27,7 @@ function Experience() {
             return (
               <div key={id} className={styles.skill}>
                 <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                  <img src={icons[skill.icon]} alt={skill.title} />
                 </div>
                 <p>{skill.title}</p>
               </div>
@@ -23,6 +37,6 @@ function Experience() {
       </div>
     </section>
   );
-};
+}
 
 export default Experience;
