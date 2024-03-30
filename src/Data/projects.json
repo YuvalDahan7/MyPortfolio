@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Live-Chat-App",
+    "description": "Experience real-time chat functionality implemented using socket.io, serving as the culmination of our school's final project.",
+    "skills": ["React", "Express", "NodeJS", "MongoDb"],
+    "source": "https://github.com/YuvalDahan7/Real-Time-Chat-"
+  },
+  {
+    "title": "KeeperApp",
+    "description": "Keeper app offers a user-friendly and intuitive platform for effortlessly jotting down notes and managing to-do lists with ease",
+    "skills": ["React"],
+    "source": "https://github.com/YuvalDahan7/KeeperApp"
+  }
+]
