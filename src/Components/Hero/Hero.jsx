@@ -8,6 +8,7 @@ function Hero() {
       <div className={styles.content}>
         <h1 className={styles.title} id="title-name">
           Hey, I'm Yuval.
+          <h2 className={styles.titleDescription}>A frontend-developer</h2>
         </h1>
         <p className={styles.description}>
           {" "}
