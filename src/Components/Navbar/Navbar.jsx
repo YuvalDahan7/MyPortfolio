@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <a className="title" href="/">
+      <a className="title" href="/MyPortfolio/">
         Portfolio
       </a>
       <div className="menu">
