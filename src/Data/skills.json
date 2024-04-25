@@ -22,5 +22,9 @@
     {
       "title": "MongoDB",
       "icon": "mongodb"
+    },
+    {
+      "title": "Git",
+      "icon": "git"
     }
   ]

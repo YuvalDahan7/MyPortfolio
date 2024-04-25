@@ -7,6 +7,7 @@ import mongoDbIcon from "../../Assets/skills/mongodb.png";
 import javaScriptIcon from "../../Assets/skills/JavaScript.png";
 import htmlIcon from "../../Assets/skills/html.png";
 import cssIcon from "../../Assets/skills/css.png";
+import gitIcon from "../../Assets/skills/git.png"
 
 function Experience() {
   const icons = {
@@ -15,7 +16,8 @@ function Experience() {
     mongodb: mongoDbIcon,
     javaScript: javaScriptIcon,
     html: htmlIcon,
-    css: cssIcon
+    css: cssIcon,
+    git: gitIcon
   };
 
   return (
